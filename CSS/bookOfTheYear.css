@@ -1,0 +1,101 @@
+main {
+  position: relative;
+  bottom: 15px;
+  padding: 15px;
+  
+  color: #444;
+  overflow: hidden;
+}
+main p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.bookoftheday {
+  display: flex;
+}
+.bookoftheday__cover {
+  width: 120px;
+  height: 180px;
+  border-radius: 7px;
+}
+.bookoftheday__info {
+  
+  margin-left: 20px;
+}
+.bookoftheday__title__main {
+  font-size: 21px;
+  line-height: 18px;
+}
+.bookoftheday__title__sub {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.3);
+  line-height: 5px;
+}
+
+.bookoftheday__stars {
+  display: flex;
+  flex-direction: column;
+}
+.bookoftheday__stars ul {
+  font-size: 15px;
+  list-style: none;
+  display: flex;
+  gap: 5px;
+}
+.bookoftheday__stars li {
+  color: #ffce33;
+}
+.bookoftheday__stars li:nth-child(5) {
+  color: rgba(0, 0, 0, 0.2);
+}
+.bookoftheday__tags {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+.bookoftheday__tags .tag {
+  height: 25px;
+  padding: 4px 7px 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+  font-weight: 600;
+}
+.bookoftheday__buttons {
+  display: flex;
+  gap: 40px;
+}
+.bookoftheday__buttons__mark {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffce33;
+  border-radius: 50%;
+  color: #333;
+}
+.bookoftheday__buttons__mark:active {
+  background-color: #e2b932;
+}
+.bookoftheday__buttons__bookNow {
+  width: 120px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  border-radius: 7px;
+  text-decoration: none;
+  color: rgb(224, 224, 224);
+  font-size: 13px;
+}
+.bookoftheday__buttons__bookNow:active {
+  background-color: rgb(36, 36, 36);
+}

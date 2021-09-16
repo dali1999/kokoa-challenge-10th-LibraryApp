@@ -1,0 +1,33 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 25px;
+  left: 13.5px;
+  border-radius: 50px;
+  background: #fff;
+  width: 370px;
+  height: 50px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.16);
+}
+.searchBar input {
+  position: relative;
+  left: 20px;
+  width: 80%;
+  height: 45px;
+  border: none;
+}
+.searchBar input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.searchBar input:focus {
+  outline: none;
+}
+.searchBar a {
+  position: relative;
+  left: 35px;
+}
+.searchBar a {
+  color: rgba(0, 0, 0, 0.3);
+  
+}
